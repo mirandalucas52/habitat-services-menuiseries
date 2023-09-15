@@ -1,0 +1,34 @@
+.titlesContainer {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title1 {
+    color: #b19777;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    z-index: 10;
+    letter-spacing: 1px;
+}
+
+.title2 {
+    font-size: 2rem;
+    z-index: 10;
+    color: #17223c;
+}
+
+.titleBg {
+    transform: translateY(-6.5rem);
+    font-size: 9.7rem;
+    z-index: 5;
+    opacity: 0.1;
+    font-weight: initial;
+    color: #ffffff00;
+    -webkit-text-stroke-color: #b19777;
+    -webkit-text-stroke-width: 2px;
+    font-family: "Abril Fatface";
+}

@@ -1,0 +1,76 @@
+.servicesSection {
+    background: #17223c;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1.9rem;
+    padding: 9rem 0;
+}
+
+.width .titleBg {
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+}
+
+.width .title2 {
+    color: white;
+}
+
+.serviceList {
+    display: flex;
+    max-width: 1120px;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+.serviceItem img {
+    cursor: url("../../assets/plus-cursor.svg"), auto;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.35s ease-in-out;
+}
+
+.serviceItem img:hover {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    transform: scale(1.3);
+    opacity: 0.2;
+}
+
+.serviceItem {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    background-color: #17223c;
+    margin-bottom: 1rem;
+    transition: 0.35s ease-in-out;
+    border: #b19777 1px solid;
+}
+
+.btnServices {
+    background: #b19777;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    border: transparent 1px solid;
+}
+
+.btnServices:hover {
+    background: #17223c;
+    transform: translateY(-10px);
+    border: #b19777 1px solid;
+}

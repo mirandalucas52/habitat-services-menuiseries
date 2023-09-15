@@ -1,0 +1,41 @@
+.carousel {
+    margin: -4rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselImgContainer {
+    max-width: 950px;
+}
+
+.carouselImgContainer img {
+    width: 950px;
+    height: 550px;
+    object-fit: cover;
+    cursor: url("../../assets/plus-cursor.svg"), auto;
+}
+
+.carousel p {
+    color: #b19777;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.carousel p:hover {
+    color: #17223c;
+}
+
+.prev {
+    width: 85px;
+    height: 12px;
+    transform: rotate(270deg);
+}
+
+.next {
+    width: 60px;
+    height: 12px;
+    transform: rotate(90deg);
+}

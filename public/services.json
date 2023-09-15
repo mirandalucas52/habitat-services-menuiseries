@@ -1,0 +1,51 @@
+[
+    {
+        "id": "9d113a50-5234-11ee-be56-0242ac120002",
+        "title": "Fenêtres",
+        "cover": "https://zupimages.net/up/23/37/i9a4.jpg",
+        "description": "",
+        "linkname": "fenetres"
+    },
+    {
+        "id": "9d113d8e-5234-11ee-be56-0242ac120002",
+        "title": "Vérandas",
+        "cover": "https://zupimages.net/up/23/37/p5is.jpeg",
+        "description": "",
+        "linkname": "verandas"
+    },
+    {
+        "id": "9d113ed8-5234-11ee-be56-0242ac120002",
+        "title": "Portes d'entrée",
+        "cover": "https://zupimages.net/up/23/37/5s02.jpg",
+        "description": "",
+        "linkname": "portes-d-entree"
+    },
+    {
+        "id": "9d11411c-5234-11ee-be56-0242ac120002",
+        "title": "Portes de garages",
+        "cover": "https://zupimages.net/up/23/37/0aqz.jpeg",
+        "description": "",
+        "linkname": "portes-de-garages"
+    },
+    {
+        "id": "9d11423e-5234-11ee-be56-0242ac120002",
+        "title": "Escaliers",
+        "cover": "https://zupimages.net/up/23/37/zing.jpg",
+        "description": "",
+        "linkname": "escaliers"
+    },
+    {
+        "id": "9d11446e-5234-11ee-be56-0242ac120002",
+        "title": "Platrerie",
+        "cover": "https://zupimages.net/up/23/37/zc0u.jpeg",
+        "description": "",
+        "linkname": "platrerie"
+    },
+    {
+        "id": "9d11469e-5234-11ee-be56-0242ac120002",
+        "title": "Volets/Stores",
+        "cover": "https://zupimages.net/up/23/37/evkc.jpg",
+        "description": "",
+        "linkname": "volets-stores"
+    }
+]

@@ -5,14 +5,12 @@ import Header from "./layout/Header";
 
 function App() {
     return (
-        <div>
+        <BrowserRouter>
             <Header />
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/home" element={<Home />} />
-                </Routes>
-            </BrowserRouter>
-        </div>
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
