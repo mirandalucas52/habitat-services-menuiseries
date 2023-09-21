@@ -1,20 +1,8 @@
 import "./LatestProjects.css";
 import Titles from "../Titles";
-import Carousel from "../Carousel";
-import { useEffect, useState } from "react";
+import ReactSlick from "../ReactSlick";
 
 function LatestProjects() {
-    const [datas, setDatas] = useState([]);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            const response = await fetch("projects.json");
-            const data = await response.json();
-            setDatas(data);
-        };
-        fetchData();
-    }, []);
-
     return (
         <section className="latestProjectsSection">
             <div className="latestTitles">
@@ -23,8 +11,8 @@ function LatestProjects() {
                     title2="Nos Derniers Chantiers"
                     titleBg="Presente"
                 />
-                <Carousel data={datas} />
             </div>
+            <ReactSlick />
         </section>
     );
 }
