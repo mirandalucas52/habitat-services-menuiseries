@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: -3.5rem;
 }
 
 .title1 {
@@ -23,7 +24,7 @@
 
 .titleBg {
     transform: translateY(-6.5rem);
-    font-size: 9.7rem;
+    font-size: 9rem;
     z-index: 5;
     opacity: 0.1;
     font-weight: initial;

@@ -1,0 +1,23 @@
+.servicesCarousel {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.servicesCarousel img {
+    transition: 0.3s;
+    border: 1px #b19777 solid;
+}
+
+.servicesCarousel img:hover {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    opacity: 0.2;
+}
+
+.servicesCarousel p {
+    transform: translateX(-13px);
+}

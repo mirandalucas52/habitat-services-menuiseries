@@ -1,11 +1,27 @@
+import React, { useEffect, useState } from "react";
 import logo from "../../assets/logo_habitat_services_menuiseries.svg";
 import "./Header.css";
 import { Link, useLocation } from "react-router-dom";
 
 function Header() {
     const location = useLocation();
+    const [scrollY, setScrollY] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+            setScrollY(currentScrollY);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
-        <header>
+        <header className={scrollY > 400 ? "fixed" : ""}>
             <div className="logo">
                 <Link to="/">
                     <img src={logo} alt="Habitat services menuiseries" />

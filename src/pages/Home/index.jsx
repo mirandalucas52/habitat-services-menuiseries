@@ -2,6 +2,7 @@ import Hero from "../../components/Hero/index";
 import About from "../../components/About/index";
 import Services from "../../components/Services";
 import LatestProjects from "../../components/LatestProjects";
+import LatestNews from "../../components/LatestNews";
 import { useEffect, useState } from "react";
 
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
             <About />
             <Services data={datas} />
             <LatestProjects />
+            <LatestNews />
         </>
     );
 }

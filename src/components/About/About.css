@@ -4,6 +4,15 @@
     display: flex;
     justify-content: space-between;
     margin-top: 5.5rem;
+    margin-bottom: 7rem;
+}
+
+::-webkit-scrollbar {
+    width: 8px; /* Largeur de la barre de défilement */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b19777; /* Couleur de la barre de défilement */
 }
 
 .aboutSection div {
