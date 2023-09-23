@@ -17,3 +17,22 @@
     margin: 0 auto;
     text-align: center;
 }
+
+.partenaires {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.partenaires img {
+    width: auto;
+    max-height: 70px;
+    filter: grayscale(1) opacity(80%);
+    transition: 0.5s;
+}
+
+.partenaires img:hover {
+    filter: grayscale(0);
+}

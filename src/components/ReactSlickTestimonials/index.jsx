@@ -2,6 +2,10 @@ import Slider from "react-slick";
 import "./slick.css";
 import "./slick-theme.css";
 import "./ReactSlickTestimonials.css";
+import ABImg from "../../assets/logo reseau ab.webp";
+import PVCCertif from "../../assets/menuisierie-PVC-CSTB-certification-qualite.jpg";
+import nfCertif from "../../assets/nf-fr.jpg";
+import ATCertif from "../../assets/nf-certified-acotherm.png";
 
 export const SliderTestimonials = () => {
     const settings = {
@@ -37,7 +41,7 @@ export const SliderTestimonials = () => {
                         rapide et sur mesure. Bref, nous sommes ravis et
                         recommandons les services de M. Athane et son équipe !
                     </p>
-                    <span>babi king</span>
+                    <span>Babi King</span>
                 </div>
                 <div>
                     <p>
@@ -63,6 +67,20 @@ export const SliderTestimonials = () => {
                     <span>Sandor Blasek</span>
                 </div>
             </Slider>
+            <div className="partenaires">
+                <a href="https://evaluation.cstb.fr/fr/certifications-produits-services/produit/fenetres-blocs-baies-pvc/">
+                    <img src={nfCertif} alt="" />
+                </a>
+                <a href="https://www.reseau-atelierdelabaie.fr/">
+                    <img src={ABImg} alt="" />
+                </a>
+                <a href="https://evaluation.cstb.fr/fr/certifications-produits-services/produit/fenetres-blocs-baies-pvc/">
+                    <img src={PVCCertif} alt="" />
+                </a>
+                <a href="https://evaluation.cstb.fr/fr/certifications-produits-services/produit/fenetres-blocs-baies-pvc/">
+                    <img src={ATCertif} alt="" />
+                </a>
+            </div>
         </div>
     );
 };
