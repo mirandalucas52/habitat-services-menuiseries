@@ -3,6 +3,7 @@ import About from "../../components/About/index";
 import Services from "../../components/Services";
 import LatestProjects from "../../components/LatestProjects";
 import LatestNews from "../../components/LatestNews";
+import Testimonials from "../../components/Testimonials";
 import { useEffect, useState } from "react";
 
 function Home() {
@@ -24,6 +25,7 @@ function Home() {
             <Services data={datas} />
             <LatestProjects />
             <LatestNews />
+            <Testimonials />
         </>
     );
 }

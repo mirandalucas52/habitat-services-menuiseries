@@ -1,0 +1,19 @@
+.carouselTestimonials p {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.6em;
+    color: #3e434a;
+    margin: 0 1rem 1.5rem 0;
+}
+
+.carouselTestimonials span {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.carouselTestimonials {
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
