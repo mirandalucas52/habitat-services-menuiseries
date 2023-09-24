@@ -6,20 +6,15 @@ header {
     position: absolute;
     width: 100%;
     z-index: 2;
-}
-
-/* Header.css */
-header {
     transition: background-color 0.3s ease;
 }
 
 header.fixed {
     position: fixed;
-
     top: 0;
     left: 0;
     right: 0;
-    background-color: #141e33; /* Changez la couleur de fond en rouge */
+    background-color: #141e33;
     z-index: 100000;
 }
 

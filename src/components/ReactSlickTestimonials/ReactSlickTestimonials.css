@@ -4,7 +4,7 @@
     font-style: italic;
     line-height: 1.6em;
     color: #3e434a;
-    margin: 0 1rem 1.5rem 0;
+    margin: 0 0 1.5rem 0;
 }
 
 .carouselTestimonials span {
@@ -35,4 +35,24 @@
 
 .partenaires img:hover {
     filter: grayscale(0);
+}
+
+.buttonFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonFlex button {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    margin: 0 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonFlex button:hover {
+    color: #b19777;
+    transform: scale(1.3) translateX(0.2rem);
 }

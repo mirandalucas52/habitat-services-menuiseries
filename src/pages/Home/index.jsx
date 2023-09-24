@@ -4,7 +4,7 @@ import Services from "../../components/Services";
 import LatestProjects from "../../components/LatestProjects";
 import LatestNews from "../../components/LatestNews";
 import Testimonials from "../../components/Testimonials";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function Home() {
     const [datas, setDatas] = useState([]);
