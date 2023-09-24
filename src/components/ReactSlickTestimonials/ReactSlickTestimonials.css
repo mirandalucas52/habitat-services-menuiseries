@@ -54,5 +54,5 @@
 
 .buttonFlex button:hover {
     color: #b19777;
-    transform: scale(1.3) translateX(0.2rem);
+    transform: scale(1.3);
 }

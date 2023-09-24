@@ -1,0 +1,68 @@
+.aboutPage {
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.aboutPage .pergolaImg {
+    width: 555px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.aboutPage article {
+    display: flex;
+    color: #192f49;
+    gap: 2rem;
+}
+
+.aboutPage h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+
+.aboutPage h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.aboutPage p,
+.aboutPage ul li {
+    color: #3e434a;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.aboutPage p {
+    line-height: 1.6;
+}
+
+.aboutPage li::before {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 8px;
+    display: inline-block;
+    margin-right: 10px;
+    content: "\f0da";
+    transform: translateY(-2px);
+    color: #b19777;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.aboutPage li {
+    line-height: 2;
+    font-style: italic;
+}
+
+.aboutPage ul {
+    margin-top: 0.5rem;
+}
+
+.aboutPage article div {
+    margin-top: 4rem;
+}
+
+.aboutPage p span {
+    font-weight: bolder;
+}

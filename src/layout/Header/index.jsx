@@ -17,7 +17,10 @@ function Header() {
         window.addEventListener("scroll", handleScroll);
 
         // Check if you are on the "/about" page and update the header style
-        if (location.pathname.includes("/about")) {
+        if (
+            location.pathname.includes("/about") ||
+            location.pathname.includes("/services")
+        ) {
             setHeaderStyle({ background: "#17223c", position: "initial" });
         } else {
             // Reset the style for other pages
