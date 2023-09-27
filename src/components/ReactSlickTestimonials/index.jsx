@@ -3,7 +3,7 @@ import "./slick.css";
 import "./slick-theme.css";
 import "./ReactSlickTestimonials.css";
 import ABImg from "../../assets/logo reseau ab.webp";
-import PVCCertif from "../../assets/menuisierie-PVC-CSTB-certification-qualite.jpg";
+import PVCCertif from "../../assets/menuiseriepvc.jpg";
 import nfCertif from "../../assets/nf-fr.jpg";
 import ATCertif from "../../assets/nf-certified-acotherm.png";
 import React, { useRef } from "react";

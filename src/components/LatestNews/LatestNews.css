@@ -54,3 +54,13 @@
     font-size: 0.7rem;
     color: #b19777;
 }
+
+.newsPage .latestNewsSection {
+    margin: 0;
+    background: white;
+}
+
+.newsPage .latestNewsWidth {
+    background: #f2f2f2;
+    padding: 2rem;
+}

@@ -3,6 +3,7 @@ import About from "../../components/About/index";
 import Services from "../../components/Services";
 import Testimonials from "../../components/Testimonials";
 import "./ServicesPage.css";
+import SmallHero from "../../components/SmallHero";
 
 function ServicesPage() {
     useEffect(() => {
@@ -10,6 +11,7 @@ function ServicesPage() {
     }, []);
     return (
         <main className="servicesPage">
+            <SmallHero />
             <About
                 content="Nous comprenons à quel point il est important de préserver les objets ayant une valeur sentimentale, et nous ferons donc tout ce qui est en notre pouvoir pour réparer un objet nécessitant des réparations.
                 <br/>

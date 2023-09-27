@@ -2,7 +2,7 @@ import About from "../../components/About/index";
 import "./AboutPage.css";
 import PergolaImg from "../../assets/pergola.JPG";
 import nfCertif from "../../assets/nf-fr.jpg";
-import PVCCertif from "../../assets/menuisierie-PVC-CSTB-certification-qualite.jpg";
+import PVCCertif from "../../assets/menuiseriepvc.jpg";
 import ATCertif from "../../assets/nf-certified-acotherm.png";
 import ABImg from "../../assets/logo reseau ab.webp";
 import { useEffect } from "react";

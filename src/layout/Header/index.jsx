@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../assets/logo_habitat_services_menuiseries.svg";
+import logo from "../../assets/logo.svg";
 import "./Header.css";
 import { Link, useLocation } from "react-router-dom";
 
@@ -16,14 +16,15 @@ function Header() {
 
         window.addEventListener("scroll", handleScroll);
 
-        // Check if you are on the "/about" page and update the header style
         if (
             location.pathname.includes("/about") ||
-            location.pathname.includes("/services")
+            location.pathname.includes("/news") ||
+            location.pathname.includes("/contact")
         ) {
             setHeaderStyle({ background: "#17223c", position: "initial" });
+        } else if (location.pathname.includes("/services")) {
+            setHeaderStyle({ background: "transparent", position: "absolute" });
         } else {
-            // Reset the style for other pages
             setHeaderStyle({});
         }
     }, [location.pathname]);
@@ -69,18 +70,6 @@ function Header() {
                             }
                         >
                             Prestations
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="/projects"
-                            className={
-                                location.pathname.includes("/projects")
-                                    ? "active"
-                                    : ""
-                            }
-                        >
-                            Chantiers
                         </Link>
                     </li>
                     <li>

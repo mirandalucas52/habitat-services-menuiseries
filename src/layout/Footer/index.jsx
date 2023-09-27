@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "../../assets/logo_habitat_services_menuiseries_dark.svg";
+import logo from "../../assets/logodark.svg";
 
 function Footer() {
     return (
