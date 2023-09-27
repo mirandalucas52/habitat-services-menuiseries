@@ -40,9 +40,12 @@ function Header() {
                 <ul>
                     <li>
                         <Link
-                            to="/"
+                            to="/habitat-services-menuiseries/"
                             className={
-                                location.pathname === "/" ? "active" : ""
+                                location.pathname ===
+                                "/habitat-services-menuiseries/"
+                                    ? "active"
+                                    : ""
                             }
                         >
                             Accueil
