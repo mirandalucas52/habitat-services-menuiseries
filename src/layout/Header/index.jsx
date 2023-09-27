@@ -32,7 +32,7 @@ function Header() {
     return (
         <header style={headerStyle} className={scrollY > 400 ? "fixed" : ""}>
             <div className="logo">
-                <Link to="/">
+                <Link to="/habitat-services-menuiseries/">
                     <img src={logo} alt="Habitat services menuiseries" />
                 </Link>
             </div>
