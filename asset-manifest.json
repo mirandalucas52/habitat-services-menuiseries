@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/habitat-services-menuiseries/static/css/main.536c453c.css",
+    "main.js": "/habitat-services-menuiseries/static/js/main.6dada484.js",
+    "static/media/backroundmonatagnard.jpg": "/habitat-services-menuiseries/static/media/backroundmonatagnard.64e2aa6ad015ad25419d.jpg",
+    "static/media/actualité1.jpg": "/habitat-services-menuiseries/static/media/actualité1.b48603fc9205e242ec0c.jpg",
+    "static/media/pergola.JPG": "/habitat-services-menuiseries/static/media/pergola.bb369e876ae79f0a41a3.JPG",
+    "static/media/actualité2.jpg": "/habitat-services-menuiseries/static/media/actualité2.620446109b8e080ecba9.jpg",
+    "static/media/menuisierbg.webp": "/habitat-services-menuiseries/static/media/menuisierbg.1d618865f08e6676f2b9.webp",
+    "static/media/nf-fr.jpg": "/habitat-services-menuiseries/static/media/nf-fr.bada6ffb7f38b38d6fcd.jpg",
+    "static/media/menuiseriepvc.jpg": "/habitat-services-menuiseries/static/media/menuiseriepvc.ccbc3475a257949110a0.jpg",
+    "static/media/nf-certified-acotherm.png": "/habitat-services-menuiseries/static/media/nf-certified-acotherm.2ec1dfa9f6874d0f0942.png",
+    "static/media/logo reseau ab.webp": "/habitat-services-menuiseries/static/media/logo reseau ab.127f9a9d7e293156d400.webp",
+    "static/media/logodark.svg": "/habitat-services-menuiseries/static/media/logodark.241ab6cee7ef29b51bfc0451df427504.svg",
+    "static/media/logo.svg": "/habitat-services-menuiseries/static/media/logo.fff328d5f5259dac0129ecc1aaa18e3a.svg",
+    "index.html": "/habitat-services-menuiseries/index.html",
+    "static/media/plus-cursor.svg": "/habitat-services-menuiseries/static/media/plus-cursor.9bcee2d80cb921fa7a2d.svg",
+    "main.536c453c.css.map": "/habitat-services-menuiseries/static/css/main.536c453c.css.map",
+    "main.6dada484.js.map": "/habitat-services-menuiseries/static/js/main.6dada484.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.536c453c.css",
+    "static/js/main.6dada484.js"
+  ]
+}
