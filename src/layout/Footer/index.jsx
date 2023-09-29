@@ -16,7 +16,7 @@ function Footer() {
                 <ul className="footerLinks">
                     <span>
                         <li>
-                            <a href="/">Accueil</a>
+                            <a href="/habitat-services-menuiseries/">Accueil</a>
                         </li>
                         <li>
                             <a href="/about">À propos</a>
@@ -26,9 +26,6 @@ function Footer() {
                         </li>
                     </span>
                     <span>
-                        <li>
-                            <a href="/projects">Chantiers</a>
-                        </li>
                         <li>
                             <a href="/news">Actualités</a>
                         </li>

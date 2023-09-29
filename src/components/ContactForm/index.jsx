@@ -48,7 +48,11 @@ export const ContactForm = () => {
                 </span>
             </div>
             <textarea placeholder="VOTRE MESSAGE:" name="from_msg" />
-            <input type="submit" value="Send" />
+            <input
+                className="btnSubmit"
+                type="submit"
+                value="ENVOYER LE MESSAGE"
+            />
         </form>
     );
 };

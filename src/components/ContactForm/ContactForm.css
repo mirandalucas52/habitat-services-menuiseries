@@ -1,19 +1,60 @@
 .contactForm .contactDisplay {
     display: flex;
     width: 100%;
-    color: #b19777;
 }
 
 .contactDisplay span {
     width: 100%;
-    margin: 0.8rem;
 }
 
-.contactForm .contactDisplay input {
+.contactDisplay span:first-child {
+    margin-right: 1.7rem;
+}
+
+.contactForm .contactDisplay input,
+.contactForm textarea {
     padding: 20px;
     margin: 0.5rem;
     border: solid 1px #e8e9ec;
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
     box-sizing: border-box;
+    font-family: "Montserrat";
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contactForm textarea {
+    height: 270px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #b19777;
+}
+
+.contactForm input:focus {
+    color: black;
+}
+
+.contactForm input:focus,
+.contactForm textarea {
+    outline-width: 0;
+}
+
+.btnSubmit {
+    margin: 0.5rem;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Montserrat";
+    background: #b19777;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    background: #192f49;
 }
