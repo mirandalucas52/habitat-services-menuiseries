@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/habitat-services-menuiseries/static/css/main.273d50ce.css",
-    "main.js": "/habitat-services-menuiseries/static/js/main.5ade089f.js",
+    "main.css": "/habitat-services-menuiseries/static/css/main.16a87d11.css",
+    "main.js": "/habitat-services-menuiseries/static/js/main.703c89da.js",
     "static/media/backroundmonatagnard.jpg": "/habitat-services-menuiseries/static/media/backroundmonatagnard.64e2aa6ad015ad25419d.jpg",
     "static/media/actualité1.jpg": "/habitat-services-menuiseries/static/media/actualité1.b48603fc9205e242ec0c.jpg",
     "static/media/pergola.JPG": "/habitat-services-menuiseries/static/media/pergola.bb369e876ae79f0a41a3.JPG",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/habitat-services-menuiseries/static/media/logo.fff328d5f5259dac0129ecc1aaa18e3a.svg",
     "index.html": "/habitat-services-menuiseries/index.html",
     "static/media/plus-cursor.svg": "/habitat-services-menuiseries/static/media/plus-cursor.9bcee2d80cb921fa7a2d.svg",
-    "main.273d50ce.css.map": "/habitat-services-menuiseries/static/css/main.273d50ce.css.map",
-    "main.5ade089f.js.map": "/habitat-services-menuiseries/static/js/main.5ade089f.js.map"
+    "main.16a87d11.css.map": "/habitat-services-menuiseries/static/css/main.16a87d11.css.map",
+    "main.703c89da.js.map": "/habitat-services-menuiseries/static/js/main.703c89da.js.map"
   },
   "entrypoints": [
-    "static/css/main.273d50ce.css",
-    "static/js/main.5ade089f.js"
+    "static/css/main.16a87d11.css",
+    "static/js/main.703c89da.js"
   ]
 }
