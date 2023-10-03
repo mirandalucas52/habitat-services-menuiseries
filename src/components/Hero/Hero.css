@@ -84,3 +84,21 @@
         transform: translateY(-470px) translateX(200px);
     }
 }
+
+@media (max-width: 700px) {
+    .heroSection article {
+        transform: translateY(-470px) translateX(100px);
+    }
+}
+
+@media (max-width: 620px) {
+    .heroSection article h2 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 490px) {
+    .heroSection article {
+        transform: translateY(-470px) translateX(40px);
+    }
+}

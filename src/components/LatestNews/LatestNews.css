@@ -73,11 +73,15 @@
 
 @media (max-width: 700px) {
     .latestNewsWidth {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .latestNewsContainer img {
         max-width: 555px;
         width: 100%;
+    }
+
+    .latestNewsContainer span {
+        flex-direction: column;
     }
 }

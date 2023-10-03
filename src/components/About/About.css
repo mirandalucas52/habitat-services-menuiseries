@@ -1,9 +1,9 @@
 .aboutSection {
-    margin: 0 auto;
+    padding: 0 2rem;
     max-width: 1150px;
     display: flex;
     justify-content: space-between;
-    margin: 5.5rem 2rem 7rem 2rem;
+    margin: 5.5rem auto 7rem auto;
 }
 
 ::-webkit-scrollbar {
@@ -42,4 +42,19 @@
     color: #192f49;
     font-size: 2.25rem;
     line-height: 1.5;
+}
+
+@media (max-width: 766px) {
+    .aboutSection {
+        flex-direction: column;
+    }
+
+    .aboutSection p,
+    .aboutSection div {
+        width: 100%;
+    }
+
+    .aboutSection h4 {
+        margin-bottom: 2rem;
+    }
 }

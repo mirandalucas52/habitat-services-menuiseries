@@ -14,7 +14,7 @@
 .contactForm .contactDisplay input,
 .contactForm textarea {
     padding: 20px;
-    margin: 0.5rem;
+    margin: 0.5rem 0;
     border: solid 1px #e8e9ec;
     font-size: 14px;
     width: 100%;
@@ -57,4 +57,14 @@ textarea::placeholder {
 
 .btnSubmit:hover {
     background: #192f49;
+}
+
+.contactPage form {
+    padding: 1rem;
+}
+
+@media (max-width: 600px) {
+    .contactForm .contactDisplay {
+        flex-direction: column;
+    }
 }

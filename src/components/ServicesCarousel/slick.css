@@ -135,3 +135,9 @@
 .servicesCarouselContainer .slick-track {
     width: 5400px !important;
 }
+
+@media (max-width: 1050px) {
+    .servicesCarouselContainer .slick-list {
+        max-width: 87vw;
+    }
+}

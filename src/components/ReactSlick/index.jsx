@@ -30,17 +30,20 @@ export const SimpleSlider = () => {
     };
 
     return (
-        <div className="carousel">
-            <button onClick={goToPreviousSlide}>Précédent</button>
-            <Slider {...settings} ref={sliderRef}>
-                {data.map((item, index) => (
-                    <div className="carouselContainer" key={index}>
-                        <img src={item.cover} alt={`Slide ${index}`} />
-                    </div>
-                ))}
-            </Slider>
-            <button onClick={goToNextSlide}>Suivant</button>
-        </div>
+        <>
+            <div className="carousel">
+                <button onClick={goToPreviousSlide}>Précédent</button>
+                <Slider {...settings} ref={sliderRef}>
+                    {data.map((item, index) => (
+                        <div className="carouselContainer" key={index}>
+                            <img src={item.cover} alt={`Slide ${index}`} />
+                        </div>
+                    ))}
+                </Slider>
+                <button onClick={goToNextSlide}>Suivant</button>
+            </div>
+            <div></div>
+        </>
     );
 };
 

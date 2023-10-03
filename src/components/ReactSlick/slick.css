@@ -108,6 +108,7 @@
 
 .carouselContainer img {
     width: 940px;
+    max-width: 100%;
     height: 550px;
     object-fit: cover;
     cursor: url("../../assets/plus-cursor.svg"), auto;
@@ -159,6 +160,18 @@
 
 @media (max-width: 1350px) {
     .carousel button {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .carouselContainer img {
+        width: 750px;
+    }
+}
+
+@media (max-width: 940px) {
+    .carousel {
         display: none;
     }
 }
