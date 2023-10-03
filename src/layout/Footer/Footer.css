@@ -10,6 +10,7 @@ footer {
     gap: 7rem;
     font-size: 14px;
     font-weight: 500;
+    padding: 0 2rem;
 }
 
 .footerContainer img {
@@ -76,4 +77,31 @@ footer p {
 
 .footerLinks a:hover {
     color: #b19777;
+}
+
+@media (max-width: 1120px) {
+    .footerLinks {
+        gap: 3rem;
+    }
+
+    .footerContainer {
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 910px) {
+    .footerContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerLinks {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .footerAddress {
+        margin-right: 0rem;
+    }
 }

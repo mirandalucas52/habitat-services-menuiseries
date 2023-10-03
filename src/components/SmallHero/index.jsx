@@ -6,7 +6,7 @@ function SmallHero() {
         <section className="smallHeroSection">
             <img src={heroSmallImg} alt="fond accueil" />
             <article>
-                <h1>Nos Services</h1>
+                <h1>Nos Prestations</h1>
                 <p>
                     Nous sommes fiers de fournir des services de menuiserie de
                     haute qualité. Nous utilisons les outils les plus innovants

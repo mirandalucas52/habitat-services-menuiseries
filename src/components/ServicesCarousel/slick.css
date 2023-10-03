@@ -122,12 +122,16 @@
     justify-content: center;
 }
 
-.slick-list {
-    max-width: 1150px !important;
-}
-
 .carousel {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.servicesCarouselContainer .slick-slide {
+    width: 300px !important;
+}
+
+.servicesCarouselContainer .slick-track {
+    width: 5400px !important;
 }

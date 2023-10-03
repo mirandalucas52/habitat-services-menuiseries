@@ -13,22 +13,50 @@ export const ServicesCarousel = () => {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
+        responsive: [
+            {
+                breakpoint: 1350,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    dots: true,
+                    infinite: true,
+                    speed: 1000,
+                },
+            },
+            {
+                breakpoint: 1050,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: true,
+                    infinite: true,
+                    speed: 1000,
+                },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                    infinite: true,
+                    speed: 1000,
+                },
+            },
+        ],
     };
 
     return (
         <div className="servicesCarouselContainer">
             <Slider {...settings}>
                 {data.map((item, index) => (
-                    <a
-                        className="servicesCarousel"
-                        href={`/services/${item.linkname}`}
-                        key={index}
-                    >
+                    <div className="servicesCarousel" key={index}>
                         <div className="servicesCarouselBorderImg">
                             <img src={item.cover} alt={`Slide ${index}`} />
                         </div>
                         <p>{item.title}</p>
-                    </a>
+                    </div>
                 ))}
             </Slider>
         </div>

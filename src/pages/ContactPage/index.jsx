@@ -11,7 +11,7 @@ function ContactPage() {
         <>
             <main className="contactPage">
                 <Titles
-                    title1="Des questions ?"
+                    title1="Devis gratuit"
                     title2="Envoyez-nous un message"
                     titleBg="Contactez-nous"
                 />

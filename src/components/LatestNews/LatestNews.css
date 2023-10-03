@@ -64,3 +64,20 @@
     background: #f2f2f2;
     padding: 2rem;
 }
+
+@media (max-width: 1250px) {
+    .latestNewsContainer {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .latestNewsWidth {
+        padding: 2rem;
+    }
+
+    .latestNewsContainer img {
+        max-width: 555px;
+        width: 100%;
+    }
+}

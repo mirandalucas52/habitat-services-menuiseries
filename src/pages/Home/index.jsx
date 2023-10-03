@@ -21,7 +21,19 @@ function Home() {
     return (
         <>
             <Hero />
-            <About />
+            <About
+                content="Habitat Services Menuiseries est une entreprise spécialisée dans
+                la menuiserie en aluminium, bois et PVC, ainsi que dans la
+                plâtrerie et l'isolation. Forts de notre expérience et de notre
+                réseau de partenaires français, nous sommes fiers de réaliser
+                des projets sur mesure pour nos clients.
+                <br />
+                <br />
+                Nous proposons une gamme complète de services de menuiserie,
+                notamment la fabrication et l'installation de fenêtres, de
+                vérandas, de portes d'entrée, de portes de garages, d'escaliers,
+                de plâtrerie, de volets et de stores."
+            />
             <Services data={datas} />
             <LatestProjects />
             <LatestNews />
