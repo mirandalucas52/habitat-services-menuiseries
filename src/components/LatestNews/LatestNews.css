@@ -68,6 +68,7 @@
 @media (max-width: 1250px) {
     .latestNewsContainer {
         flex-direction: column;
+        margin-top: 2rem;
     }
 }
 
@@ -79,6 +80,11 @@
     .latestNewsContainer img {
         max-width: 555px;
         width: 100%;
+    }
+
+    .latestNewsSection {
+        margin: 8rem 0;
+        padding: 9rem 0rem;
     }
 
     .latestNewsContainer span {

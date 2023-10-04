@@ -67,4 +67,8 @@ textarea::placeholder {
     .contactForm .contactDisplay {
         flex-direction: column;
     }
+
+    .contactPage {
+        margin: 2rem 0;
+    }
 }

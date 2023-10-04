@@ -30,7 +30,10 @@ function Header() {
     }, [location.pathname]);
 
     return (
-        <header style={headerStyle} className={scrollY > 400 ? "fixed" : ""}>
+        <header
+            style={headerStyle}
+            className={`header ${scrollY > 400 ? "fixed" : ""}`}
+        >
             <div className="logo">
                 <Link to="/habitat-services-menuiseries/">
                     <img src={logo} alt="Habitat services menuiseries" />
@@ -53,9 +56,11 @@ function Header() {
                     </li>
                     <li>
                         <Link
-                            to="/about"
+                            to="/habitat-services-menuiseries/about/"
                             className={
-                                location.pathname.includes("/about")
+                                location.pathname.includes(
+                                    "/habitat-services-menuiseries/about/"
+                                )
                                     ? "active"
                                     : ""
                             }
@@ -65,9 +70,11 @@ function Header() {
                     </li>
                     <li>
                         <Link
-                            to="/services"
+                            to="/habitat-services-menuiseries/services/"
                             className={
-                                location.pathname.includes("/services")
+                                location.pathname.includes(
+                                    "/habitat-services-menuiseries/services/"
+                                )
                                     ? "active"
                                     : ""
                             }
@@ -77,9 +84,11 @@ function Header() {
                     </li>
                     <li>
                         <Link
-                            to="/news"
+                            to="/habitat-services-menuiseries/news/"
                             className={
-                                location.pathname.includes("/news")
+                                location.pathname.includes(
+                                    "/habitat-services-menuiseries/news/"
+                                )
                                     ? "active"
                                     : ""
                             }
@@ -89,9 +98,11 @@ function Header() {
                     </li>
                     <li>
                         <Link
-                            to="/contact"
+                            to="/habitat-services-menuiseries/contact/"
                             className={
-                                location.pathname.includes("/contact")
+                                location.pathname.includes(
+                                    "/habitat-services-menuiseries/contact/"
+                                )
                                     ? "active"
                                     : ""
                             }

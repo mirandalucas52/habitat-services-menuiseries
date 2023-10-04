@@ -33,3 +33,9 @@
     -webkit-text-stroke-width: 2px;
     font-family: "Abril Fatface";
 }
+
+@media (max-width: 430px) {
+    .titlesContainer .titleBg {
+        font-size: 3rem !important;
+    }
+}

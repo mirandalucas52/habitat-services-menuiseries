@@ -101,4 +101,7 @@
     .heroSection article {
         transform: translateY(-470px) translateX(40px);
     }
+    .heroSection article h2 {
+        font-size: 3rem;
+    }
 }

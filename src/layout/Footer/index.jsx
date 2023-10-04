@@ -1,5 +1,6 @@
 import "./Footer.css";
 import logo from "../../assets/logodark.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -13,27 +14,37 @@ function Footer() {
                     <li>France</li>
                     <a href="tel:06 51 85 57 93">06 51 85 57 93</a>
                 </ul>
-                <ul className="footerLinks">
-                    <span>
+                <span className="footerLinks">
+                    <ul>
                         <li>
-                            <a href="/habitat-services-menuiseries/">Accueil</a>
+                            <Link to="/habitat-services-menuiseries/">
+                                Accueil
+                            </Link>
                         </li>
                         <li>
-                            <a href="/about">À propos</a>
+                            <Link to="/habitat-services-menuiseries/about/">
+                                À propos
+                            </Link>
                         </li>
                         <li>
-                            <a href="/services">Prestations</a>
+                            <Link to="/habitat-services-menuiseries/services/">
+                                Prestations
+                            </Link>
                         </li>
-                    </span>
-                    <span>
+                    </ul>
+                    <ul>
                         <li>
-                            <a href="/news">Actualités</a>
+                            <Link to="/habitat-services-menuiseries/news/">
+                                Actualités
+                            </Link>
                         </li>
                         <li>
-                            <a href="/contact">Contact</a>
+                            <Link to="/habitat-services-menuiseries/contact/">
+                                Contact
+                            </Link>
                         </li>
-                    </span>
-                </ul>
+                    </ul>
+                </span>
             </div>
             <p>© Habitat Services Menuiseries. Tous droit résérvés</p>
         </footer>

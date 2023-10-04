@@ -7,20 +7,34 @@ import AboutPage from "./pages/AboutPage";
 import ServicesPage from "./pages/ServicesPage";
 import NewsPage from "./pages/NewsPage";
 import ContactPage from "./pages/ContactPage";
+import HeaderMobile from "./layout/HeaderMobile";
 
 function App() {
     return (
         <BrowserRouter>
             <Header />
+            <HeaderMobile />
             <Routes>
                 <Route
                     path="/habitat-services-menuiseries/"
                     element={<Home />}
                 />
-                <Route path="/about" element={<AboutPage />} />
-                <Route path="/services" element={<ServicesPage />} />
-                <Route path="/news" element={<NewsPage />} />
-                <Route path="/contact" element={<ContactPage />} />
+                <Route
+                    path="/habitat-services-menuiseries/about/"
+                    element={<AboutPage />}
+                />
+                <Route
+                    path="/habitat-services-menuiseries/services/"
+                    element={<ServicesPage />}
+                />
+                <Route
+                    path="/habitat-services-menuiseries/news/"
+                    element={<NewsPage />}
+                />
+                <Route
+                    path="/habitat-services-menuiseries/contact/"
+                    element={<ContactPage />}
+                />
             </Routes>
             <Footer />
         </BrowserRouter>

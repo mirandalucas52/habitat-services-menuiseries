@@ -76,7 +76,7 @@
 @media (max-width: 590px) {
     .carouselTestimonials .slick-list {
         max-width: 300px;
-        margin-bottom: -10rem;
+        margin-top: 4rem;
     }
 
     .partenaires {

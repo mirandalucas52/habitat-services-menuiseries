@@ -1,0 +1,90 @@
+@media (max-width: 1000px) {
+    .headerMobile {
+        display: block;
+        position: absolute;
+        width: 100%;
+        z-index: 10000;
+        top: 0;
+        background: #17223c;
+    }
+}
+
+@media (min-width: 1002px) {
+    .headerMobile {
+        display: none;
+    }
+}
+
+.headerMobile.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #141e33;
+    z-index: 1000;
+}
+
+.headerMobile .logo {
+    background: #141e33;
+    width: 50%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerMobile .logo img {
+    max-width: 200px;
+}
+
+.headerMobile nav {
+    position: fixed;
+    left: -1000px;
+    transition: 0.5s;
+    top: 0;
+    height: 100vh;
+    background: #17223c;
+    width: 90vw;
+    z-index: 1000;
+    color: white;
+    text-transform: uppercase;
+}
+
+.headerMobile nav ul li {
+    border-bottom: 1px rgba(255, 255, 255, 0.101) solid;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 1.45rem 1.45rem;
+}
+
+.menuMobile .menuIcon {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: white;
+    position: relative;
+    right: 20px;
+    transition: 0.3s;
+}
+
+.menuMobile.cross .menuIcon:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menuMobile.cross .menuIcon:nth-child(2) {
+    transform: rotate(-45deg) translate(0, 0);
+}
+
+.displayFlexMobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuMobile span:first-child {
+    margin-bottom: 0.3rem;
+}
+
+.headerMobile .nav.active {
+    left: 0px;
+}

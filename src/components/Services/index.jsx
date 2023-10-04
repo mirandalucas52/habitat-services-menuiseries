@@ -1,6 +1,7 @@
 import "./Services.css";
 import Titles from "../Titles";
 import ServicesCarousel from "../ServicesCarousel";
+import { Link } from "react-router-dom";
 
 function Services() {
     return (
@@ -12,9 +13,12 @@ function Services() {
                     titleBg="Menuisier"
                 />
                 <ServicesCarousel />
-                <a href="/services" className="btnServices">
+                <Link
+                    to="/habitat-services-menuiseries/services/"
+                    className="btnServices"
+                >
                     Voir nos prestations
-                </a>
+                </Link>
             </div>
         </section>
     );

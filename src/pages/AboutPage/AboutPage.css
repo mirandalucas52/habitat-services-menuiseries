@@ -13,6 +13,8 @@
     display: flex;
     color: #192f49;
     gap: 2rem;
+    margin: 0 2rem;
+    align-items: center;
 }
 
 .aboutPage h2 {
@@ -59,10 +61,35 @@
     margin-top: 0.5rem;
 }
 
-.aboutPage article div {
-    margin-top: 4rem;
-}
-
 .aboutPage p span {
     font-weight: bolder;
+}
+
+@media (max-width: 970px) {
+    .aboutSection div {
+        width: 48%;
+    }
+
+    .aboutPage article {
+        flex-direction: column;
+    }
+
+    .aboutPage .pergolaImg {
+        width: 100%;
+    }
+}
+
+@media (max-width: 860px) {
+    .aboutSection {
+        flex-direction: column;
+    }
+
+    .aboutSection div {
+        width: 100%;
+    }
+
+    .aboutSection p {
+        margin-top: 2rem;
+        width: 100%;
+    }
 }

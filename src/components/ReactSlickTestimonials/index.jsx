@@ -34,7 +34,7 @@ export const SliderTestimonials = () => {
     return (
         <div className="carouselTestimonials">
             <div className="buttonFlex">
-                <button onClick={goToPreviousSlide}>
+                <button onClick={goToPreviousSlide} aria-label="Précédent">
                     <i class="fa-solid fa-chevron-left"></i>
                 </button>
                 <Slider {...settings} ref={sliderRef}>
@@ -89,21 +89,33 @@ export const SliderTestimonials = () => {
                         <span>Sandor Blasek</span>
                     </div>
                 </Slider>
-                <button onClick={goToNextSlide}>
+                <button onClick={goToNextSlide} aria-label="Suivant">
                     <i class="fa-solid fa-chevron-right"></i>
                 </button>
             </div>
             <div className="partenaires">
-                <a href="https://evaluation.cstb.fr/fr/certifications-produits-services/produit/fenetres-blocs-baies-pvc/">
+                <a
+                    aria-label="Certifications produits services"
+                    href="https://evaluation.cstb.fr/fr/certifications-produits-services/produit/fenetres-blocs-baies-pvc/"
+                >
                     <img src={nfCertif} alt="" />
                 </a>
-                <a href="https://www.reseau-atelierdelabaie.fr/">
+                <a
+                    aria-label="Reseau atelier de la baie"
+                    href="https://www.reseau-atelierdelabaie.fr/"
+                >
                     <img src={ABImg} alt="" />
                 </a>
-                <a href="https://evaluation.cstb.fr/fr/certifications-produits-services/produit/fenetres-blocs-baies-pvc/">
+                <a
+                    aria-label="certification fenetre bloc baies pvc"
+                    href="https://evaluation.cstb.fr/fr/certifications-produits-services/produit/fenetres-blocs-baies-pvc/"
+                >
                     <img src={PVCCertif} alt="" />
                 </a>
-                <a href="https://evaluation.cstb.fr/fr/certifications-produits-services/produit/fenetres-blocs-baies-pvc/">
+                <a
+                    aria-label="Certifications produits services fenetre bloc baie pvc"
+                    href="https://evaluation.cstb.fr/fr/certifications-produits-services/produit/fenetres-blocs-baies-pvc/"
+                >
                     <img src={ATCertif} alt="" />
                 </a>
             </div>

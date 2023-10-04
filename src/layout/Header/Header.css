@@ -104,7 +104,28 @@ header li:hover {
 }
 
 @media (max-width: 1000px) {
-    header nav {
+    .header {
         display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    header .logo {
+        width: auto;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    header .logo {
+        padding: 0 1rem;
+    }
+
+    header .logo img {
+        max-width: 160px;
+    }
+
+    .headerMobile .logo a img {
+        max-width: 160px;
     }
 }
